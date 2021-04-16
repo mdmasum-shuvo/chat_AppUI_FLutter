@@ -1,5 +1,6 @@
 import 'package:chat/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:chat/screens/sign/sign_in_or_sign_up.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -36,7 +37,7 @@ class WelcomeScreen extends StatelessWidget {
 
             FittedBox(
               child: TextButton(
-                  onPressed: null,
+                 onPressed: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>SignInOrSignUp(),)),
                   child: Row(
                     children: [
                       Text(

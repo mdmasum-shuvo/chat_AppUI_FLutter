@@ -1,3 +1,5 @@
+import 'package:chat/screens/chats/chates_screen.dart';
+import 'package:chat/screens/sign/sign_in_or_sign_up.dart';
 import 'package:chat/screens/welcome/welcome_screen.dart';
 import 'package:chat/theme.dart';
 import 'package:flutter/material.dart';
@@ -12,9 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: lightThemeData(context),
       darkTheme: darkThemeData(context),
-      home: WelcomeScreen(),
+      home: ChatScreen(),
     );
   }
 }
