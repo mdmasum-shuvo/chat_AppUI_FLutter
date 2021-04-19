@@ -12,7 +12,6 @@ class WelcomeScreen extends StatelessWidget {
             Spacer(flex: 2,),
             Image.asset("assets/images/welcome_image.png"),
             Spacer(flex: 3,),
-
             Text(
               "Welcome to our freedom\n messaging app",
               textAlign: TextAlign.center,
@@ -22,7 +21,6 @@ class WelcomeScreen extends StatelessWidget {
                   .copyWith(fontWeight: FontWeight.bold),
             ),
             Spacer(),
-
             Text(
               "Chatting with any person of your\nown language",
               textAlign: TextAlign.center,
